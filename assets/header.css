@@ -1,0 +1,54 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+    --cor-secundaria: #FFFFFF;
+    --cor-titulo-menu: #EB9B00;
+    --fonte-principal: "Poppins";
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    background-color: var(--cor-secundaria);
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.container-menu{
+    width: 2em;
+    height: 2em;
+    background-image: url(../img/Menu.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabecalho-menu{
+    display:none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: var(--cor-secundaria);
+    width: 300px;
+}
+
+.cabecalho-botao:checked~.cabecalho-menu{
+    display: block;
+}
+
+.item-menu{
+    font-family: "Poppins";
+    padding: 24px 24px 16px 24px;
+}
+
+.menu-titulo{
+    color: var(--cor-titulo-menu);
+    font-size: 1em;
+    font-weight: 700;
+}
+
