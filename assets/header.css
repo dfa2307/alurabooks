@@ -2,6 +2,7 @@
     --cor-de-fundo:#EBECEE;
     --cor-secundaria: #FFFFFF;
     --cor-titulo-menu: #EB9B00;
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
 }
 
@@ -34,7 +35,7 @@
     top: 100%;
     left: 0%;
     background-color: var(--cor-secundaria);
-    width: 300px;
+    width: 60vw;
 }
 
 .cabecalho-botao:checked~.cabecalho-menu{
@@ -43,7 +44,14 @@
 
 .item-menu{
     font-family: "Poppins";
-    padding: 24px 24px 16px 24px;
+    padding: 1.5em 1.5em 1em 1.5em;
+}
+
+.menu-link{
+    background: var(--cor-azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .menu-titulo{
@@ -52,3 +60,6 @@
     font-weight: 700;
 }
 
+.cabecalho-botao{
+    display: none;
+}

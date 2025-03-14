@@ -1,0 +1,47 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+    --cor-secundaria: #FFFFFF;
+    --cor-titulo-menu: #EB9B00;
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+}
+
+.banner{
+    text-align: center;
+    background: var(--cor-azul-degrade);    
+    padding: 2em 2em;
+}
+
+.banner-texto{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+}
+
+.banner-titulo{
+
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.banner-slogan{
+    font-size: 1em;
+    margin: 1.5em 0;
+}
+
+.banner-input{
+    margin-bottom: 2em;
+    width: 100%;
+    padding: 1em;
+    border-radius: 24px;
+    border: 1px solid var(--cor-secundaria);
+    background-color: transparent;
+}
+
+.banner-input::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    background: url(../img/Pesquisa.svg) no-repeat;
+}
