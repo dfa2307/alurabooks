@@ -1,11 +1,3 @@
-:root{
-    --cor-de-fundo:#EBECEE;
-    --cor-secundaria: #FFFFFF;
-    --cor-titulo-menu: #EB9B00;
-    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: "Poppins";
-}
-
 .cabecalho{
     display: flex;
     justify-content: space-between;

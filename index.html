@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/reset.css">
     <title>AluraBooks</title>
@@ -36,6 +37,63 @@
             <p class="banner-slogan banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner-input" placeholder="Qual será sua próxima leitura?">
         </section>
+
+        <section class="carrosel">
+            <h2 class="titulo-carrosel">ÚLTIMOS LANÇAMENTOS</h2>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt=""></div>
+                  <div class="swiper-slide"><img src="img/Liderança.svg"></div>
+                  <div class="swiper-slide"><img src="img/Javascript.svg"></div>
+                  <div class="swiper-slide"><img src="img/Guia Front-end.svg"></div>
+                  <div class="swiper-slide"><img src="img/Portugol.svg"></div>
+                  <div class="swiper-slide"><img src="img/Acessibilidade.svg"></div>
+                </div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </section>
+
+        <section class="card">
+            <div class="texto-card">
+                <h2 class="titulo-card">Talvez você também se interesse por...</h2>
+                <h3 class="sub-titulo-card">Angular 11 e Firebase</h3>
+                <p class="descricao-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                <div>
+                    <img src="img/Angular.svg" alt="" class="angular-card">
+                </div>             
+            </div>
+
+            <div class="imagem-card">
+
+                <a href="#"><img src="img/Favoritos.svg" alt="icone dos livros Favoritos"></a>
+                <a href="#"><img src="img/Compras.svg" alt="icone de sacola de compras"></a>
+                <a href="#" class="botao-card">Saiba mais</a>
+            </div>
+        </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination:{
+                el: ".swiper-pagination",
+                type: "bullets",
+            },
+        });
+
+    </script>
 </body>
 </html>
