@@ -1,0 +1,66 @@
+footer{
+    background-color: var(--cor-secundaria);
+    height: 100vh;
+}
+
+.topicos-recentes{
+    background-image: var(--cor-azul-degrade);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.links-topicos{
+    background-color: var(--cor-titulo-menu);
+    padding: 24px 16px;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 0.87em;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contato{
+    margin: 30px 24px;
+}
+
+.titulo-contato{
+    font-size: 1.12em;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    background: var(--cor-azul-degrade); /* Degradê de cores */
+    background-clip: text;
+    -webkit-background-clip: text; /* Aplica o fundo ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+}
+
+.texto-contato{
+    margin: 10px 0 24px 0;
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    background: var(--cor-azul-degrade); /* Degradê de cores */
+    background-clip: text;
+    -webkit-background-clip: text; /* Aplica o fundo ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+}
+
+.contato-input{
+    width: 100%;
+    padding: 1em;
+    border-radius: 24px;
+    border: 1px solid var(--cor-fonte-card);
+    background-color: transparent;
+}
+
+.contato-input::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-card);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    background: url(../img/Email.svg) no-repeat;
+    background-position: 0 50%;
+}
