@@ -30,6 +30,8 @@
     left: 0%;
     background-color: var(--cor-secundaria);
     width: 60vw;
+    height: 100vw;
+    overflow: scroll;
 }
 
 .cabecalho-botao:checked~.cabecalho-menu{
