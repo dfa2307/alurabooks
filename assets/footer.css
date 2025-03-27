@@ -1,14 +1,24 @@
-footer{
-    background-color: var(--cor-secundaria);
-    height: 100vh;
+
+
+.topicos{
+    background: var(--cor-azul-degrade);
+    padding-top: 24px;
 }
 
-.topicos-recentes{
-    background-image: var(--cor-azul-degrade);
+.titulo-topicos{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.topicos-recentes{   
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: center;
+    gap: 1em;
 }
 
 .links-topicos{
@@ -58,9 +68,21 @@ footer{
 .contato-input::placeholder{
     font-family: var(--fonte-principal);
     color: var(--cor-fonte-card);
-    text-align: center;
+    padding-left: 2.5em;
     font-weight: 400;
     font-size: 1em;
     background: url(../img/Email.svg) no-repeat;
     background-position: 0 50%;
+}
+
+hr{
+    margin: 0;
+}
+
+.grupo-alura{
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    font-size: 1em;
+    padding: 1em;
 }
