@@ -8,6 +8,7 @@
 
 .texto-card{
     display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
@@ -29,11 +30,12 @@
 .descricao-card{
     font-family: var(--fonte-principal);
     font-size: .87em;
+    margin-bottom: 1em;
 }
 
 .saiba-mais{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -50,8 +52,8 @@
 
 .botoes-saiba-mais{
     display: flex;
-    gap: 20px;
-    align-items: center;
+    margin-bottom: 1em;
+    gap: 2em;
 }
 
 .estrelinhas{
