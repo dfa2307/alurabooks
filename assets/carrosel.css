@@ -19,3 +19,32 @@
 .swiper-pagination{
     position: initial;
 }
+
+@media (min-width: 1024px){
+
+    .swiper{
+        margin: 0 160px;
+    }
+
+    .swiper-wrapper{
+        text-align: center; 
+        margin-top: 77px;
+        margin-bottom: 60px;
+    }
+
+    .swiper-slide img{
+        width: 150px;
+    }
+    
+    .swiper-button-prev, .swiper-button-next{
+        display: inline-block;
+        margin: auto 0;
+        background: var(--cor-azul-degrade);
+        
+    }
+    
+    .swiper-pagination{
+        margin-top: 32px;
+        position: initial;
+    }
+}

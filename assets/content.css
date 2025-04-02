@@ -10,7 +10,6 @@
 }
 
 .banner-titulo{
-
     font-weight: 700;
     font-size: 1.1em;
 }
@@ -38,4 +37,27 @@
     background: url(../img/Pesquisa.svg) no-repeat;
     background-size: 2em;
     background-position: 0 50%;
+}
+
+@media (min-width: 1024px){
+
+    .banner{   
+        padding: 5.25em;
+    }
+    
+    .banner-titulo{
+        font-size: 2.25em;
+    }
+
+    .banner-input{
+        width: 476px;
+        padding: 1.5em;
+    }
+
+    .banner-input::placeholder{
+        text-align: center;
+        font-size: 1em;
+        background-size: 2em;
+        background-position: 25%;
+    }
 }

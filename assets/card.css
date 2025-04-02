@@ -63,3 +63,7 @@
     background-repeat: repeat-x;
     margin-bottom: 9px;
 }
+
+.angular-card{
+    border-radius: 10px;
+}
