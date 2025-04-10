@@ -86,3 +86,86 @@ hr{
     font-size: 1em;
     padding: 1em;
 }
+
+.rodape-grupo-alura{
+    display: none;
+}
+
+@media (min-width: 1024px){
+
+    .topicos{
+        background: var(--cor-azul-degrade);
+        padding: 24px 0 24px 0;
+    }
+
+    .titulo-topicos{
+        font-size: 1.5em;
+        margin: 1em 0 2em 0;
+    }
+
+    .topicos-recentes{   
+        gap: 1em;
+        padding: 0 140px;
+    }
+
+    .links-topicos{
+        padding: 32px 24px;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+        padding: 50px;
+    }
+
+    .contato-input{
+        width: 300px;
+    }
+
+    .titulo-contato{
+        font-size: 1.5em;
+    }
+    
+    .container-contato{
+        width: 300px;
+    }
+
+    .grupo-alura{
+        display: flex;
+        gap: 106px;
+        padding-top: 55px;
+    }
+
+    .grupo-alura-texto{
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .titulo-educacao{
+        font-size: 0.8em;
+        color: var(--cor-cinza);
+    }
+
+    .grupo-alura-links{
+        font-size: 0.8em;
+    }
+
+    .grupo-alura-ul{
+        margin-top: 25px;
+    }
+
+    .grupo-alura-topicos{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        gap: 8px;
+    }
+
+    .grupo-alura-topicos a{
+        color: var(--cor-fonte-links);
+    }
+}

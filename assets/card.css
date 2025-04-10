@@ -67,3 +67,22 @@
 .angular-card{
     border-radius: 10px;
 }
+
+@media(min-width: 1024px){
+
+    .card{
+        width: 588px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .texto-card{
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .saiba-mais{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

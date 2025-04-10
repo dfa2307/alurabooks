@@ -22,29 +22,43 @@
 
 @media (min-width: 1024px){
 
-    .swiper{
-        margin: 0 160px;
+    .titulo-carrosel{
+        font-size: 1.6em;
     }
 
-    .swiper-wrapper{
-        text-align: center; 
-        margin-top: 77px;
-        margin-bottom: 60px;
-    }
-
-    .swiper-slide img{
-        width: 150px;
-    }
-    
-    .swiper-button-prev, .swiper-button-next{
-        display: inline-block;
-        margin: auto 0;
-        background: var(--cor-azul-degrade);
-        
-    }
-    
     .swiper-pagination{
-        margin-top: 32px;
-        position: initial;
+        margin: 1em 0 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+      
+    .swiper-button-prev, .swiper-button-next{
+        display: flex;
+        background: var(--cor-azul-degrade);
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        color: var(--cor-secundaria);
+        top: 50%;
+        margin: 0 -10px;
+    }
+
+    .swiper-button-prev::after{
+        content: "\f053";
+        font-weight: 900;
+        font-family: "Font Awesome 5 free";
+        font-size: 15px;
+    }
+    .swiper-button-next::after{
+        content: "\f054";
+        font-weight: 900;
+        font-family: "Font Awesome 5 free";
+        font-size: 15px;
+    }
+
+    .carrosel{
+        margin-bottom: 50px;
     }
 }
