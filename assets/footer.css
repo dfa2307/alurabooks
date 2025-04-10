@@ -92,6 +92,9 @@ hr{
 }
 
 @media (min-width: 1024px){
+    .rodape-grupo-alura{
+        display: block;
+    }
 
     .topicos{
         background: var(--cor-azul-degrade);
