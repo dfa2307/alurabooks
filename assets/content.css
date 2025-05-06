@@ -61,3 +61,9 @@
         background-position: 25%;
     }
 }
+
+@media (min-width:1728px){
+    .conteudo-card-carrosel{
+        display: flex;
+    }
+}

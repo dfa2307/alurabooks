@@ -71,8 +71,17 @@
     display: none;
 }
 
+.titulo-container-icone{
+    display: none;
+}
+
 
 @media (min-width: 1024px){
+
+    .titulo-container-icone{
+        display: none;
+    }
+
     .container-menu{
         display: none;
     }
@@ -145,5 +154,14 @@
     .categoria-navegacao:checked~.navegacao-menu{
         display: block;
     }
+
+    .teste{
+        display: flex;
+        gap: 57px;
+    }
   
+}
+
+@media (min-width: 1728px){
+    
 }

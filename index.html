@@ -9,44 +9,53 @@
     <title>AluraBooks</title>
 </head>
 <body>
-    <header class="cabecalho">        
-        <div class="container">
-            <input type="checkbox" id="menu" class="cabecalho-botao">
-            <label for="menu">
-                <span class="container-menu"></span>
-            </label>
-            <ul class="cabecalho-menu">
-                <li class="item-menu"><a href="#" class="menu-titulo">Categorias</a></li>
-                <li class="item-menu"><a href="" class="menu-link">PROGRAMAÇÃO</a></li>
-                <li class="item-menu"><a href="" class="menu-link">FRONT-END</a></li>
-                <li class="item-menu"><a href="" class="menu-link">INFRAESTRUTURA</a></li>
-                <li class="item-menu"><a href="" class="menu-link">BUSINESS</a></li>
-                <li class="item-menu"><a href="" class="menu-link">DESIGN & UX</a></li>
-            </ul>
-            <img src="img/Logo.svg" alt="logo do alurabooks" class="img-cabecalho">
-            <h2 class="titulo-container"><span class="destaque-titulo">Alura</span>Books</h2>
-        </div>
+    <header class="cabecalho"> 
+        <div class="teste">     
+            <div class="container">
+                <input type="checkbox" id="menu" class="cabecalho-botao">
+                <label for="menu">
+                    <span class="container-menu"></span>
+                </label>
+                <ul class="cabecalho-menu">
+                    <li class="item-menu"><a href="#" class="menu-titulo">Categorias</a></li>
+                    <li class="item-menu"><a href="" class="menu-link">PROGRAMAÇÃO</a></li>
+                    <li class="item-menu"><a href="" class="menu-link">FRONT-END</a></li>
+                    <li class="item-menu"><a href="" class="menu-link">INFRAESTRUTURA</a></li>
+                    <li class="item-menu"><a href="" class="menu-link">BUSINESS</a></li>
+                    <li class="item-menu"><a href="" class="menu-link">DESIGN & UX</a></li>
+                </ul>
+                <img src="img/Logo.svg" alt="logo do alurabooks" class="img-cabecalho">
+                <h2 class="titulo-container"><span class="destaque-titulo">Alura</span>Books</h2>
+            </div>
 
-        <div class="navegacao-container">
-            <input type="checkbox" id="categoria" class="categoria-navegacao">
-            <label for="categoria">
-                <h2 class="titulo-nav">CATEGORIA</h2>
-            </label>
-            <h2>FAVORITOS</h2>
-            <h2>MINHA ESTANTE</h2>
-            <ul class="navegacao-menu">
-                <li class="item-nav"><a href="#" class="nav-link">PROGRAMAÇÃO</a></li>
-                <li class="item-nav"><a href="#" class="nav-link">FRONT-END</a></li>
-                <li class="item-nav"><a href="#" class="nav-link">INFRAESTRUTURA</a></li>
-                <li class="item-nav"><a href="#" class="nav-link">BUSINESS</a></li>
-                <li class="item-nav"><a href="#" class="nav-link">DESIGN & UX</a></li>
-            </ul>
+            <div class="navegacao-container">
+                <input type="checkbox" id="categoria" class="categoria-navegacao">
+                <label for="categoria">
+                    <h2 class="titulo-nav">CATEGORIA</h2>
+                </label>
+                <h2>FAVORITOS</h2>
+                <h2>MINHA ESTANTE</h2>
+                <ul class="navegacao-menu">
+                    <li class="item-nav"><a href="#" class="nav-link">PROGRAMAÇÃO</a></li>
+                    <li class="item-nav"><a href="#" class="nav-link">FRONT-END</a></li>
+                    <li class="item-nav"><a href="#" class="nav-link">INFRAESTRUTURA</a></li>
+                    <li class="item-nav"><a href="#" class="nav-link">BUSINESS</a></li>
+                    <li class="item-nav"><a href="#" class="nav-link">DESIGN & UX</a></li>
+                </ul>
+            </div>
         </div>
             
         <div class="container">
             <a href="#"><img class="img-cabecalho favoritos" src="img/Favoritos.svg" alt="icone dos livros Favoritos"></a>
-            <a href="#"><img class="img-cabecalho compras" src="img/Compras.svg" alt="icone de sacola de compras"></a>
-            <a href="#"><img class="img-cabecalho user" src="img/Usuario.svg" alt="icone do usuario"></a>
+            <div class="container-icone">
+                <a href="#"><img class="img-cabecalho compras" src="img/Compras.svg" alt="icone de sacola de compras"></a>
+                <h2 class="titulo-container-icone">Minha sacola</h2>
+            </div>
+            <div class="container-icone">
+                <a href="#"><img class="img-cabecalho user" src="img/Usuario.svg" alt="icone do usuario"></a>
+                <h2 class="titulo-container-icone">Meu perfil</h2>
+            </div>
+            
         </div>
     </header>
     <main class="conteudo">
@@ -56,54 +65,55 @@
             <input type="search" class="banner-input" placeholder="Qual será sua próxima leitura?">
         </section>
 
+        <h2 class="titulo-carrosel">ÚLTIMOS LANÇAMENTOS</h2>
         <section class="carrosel">
-            <h2 class="titulo-carrosel">ÚLTIMOS LANÇAMENTOS</h2>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="img/ApacheKafka.svg" ></div>
+                            <div class="swiper-slide"><img src="img/Liderança.svg"></div>
+                            <div class="swiper-slide"><img src="img/Javascript.svg"></div>
+                            <div class="swiper-slide"><img src="img/Guia Front-end.svg"></div>
+                            <div class="swiper-slide"><img src="img/Portugol.svg"></div>
+                            <div class="swiper-slide"><img src="img/Acessibilidade.svg"></div>
+                            </div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
 
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="img/ApacheKafka.svg" ></div>
-                  <div class="swiper-slide"><img src="img/Liderança.svg"></div>
-                  <div class="swiper-slide"><img src="img/Javascript.svg"></div>
-                  <div class="swiper-slide"><img src="img/Guia Front-end.svg"></div>
-                  <div class="swiper-slide"><img src="img/Portugol.svg"></div>
-                  <div class="swiper-slide"><img src="img/Acessibilidade.svg"></div>
-                </div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              
-                <!-- If we need scrollbar -->
-                <!-- <div class="swiper-scrollbar"></div> -->
-              </div>
+            
+                    <section class="card">
+                        <div class="texto-card">
+                            <div>
+                                <h3 class="titulo-card">Talvez você também se interesse por...</h2>
+                                <h2 class="sub-titulo-card">Angular 11 e Firebase</h3>
+                                <p class="descricao-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                            </div>      
+                            <img src="img/Angular.svg" alt="" class="angular-card">       
+                        </div>
+            
+                        <div class="saiba-mais">
+                            <div class="botoes-saiba-mais">
+                                <a href="#"><img src="img/Favoritos.svg" alt="icone dos livros Favoritos"></a>
+                                <a href="#"><img src="img/Compras.svg" alt="icone de sacola de compras"></a>
+                            </div>
+                            <a href="#" class="botao-card">Saiba mais</a>
+                        </div>
+                    </section>
         </section>
-
-        <section class="card">
-            <div class="texto-card">
-                <div>
-                    <h3 class="titulo-card">Talvez você também se interesse por...</h2>
-                    <h2 class="sub-titulo-card">Angular 11 e Firebase</h3>
-                    <p class="descricao-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                </div>      
-                <img src="img/Angular.svg" alt="" class="angular-card">       
-            </div>
-
-            <div class="saiba-mais">
-                <div class="botoes-saiba-mais">
-                    <a href="#"><img src="img/Favoritos.svg" alt="icone dos livros Favoritos"></a>
-                    <a href="#"><img src="img/Compras.svg" alt="icone de sacola de compras"></a>
-                </div>
-                <a href="#" class="botao-card">Saiba mais</a>
-            </div>
-        </section>
+        
+    <h2 class="titulo-carrosel">MAIS VENDIDOS</h2>
 
         <section class="carrosel">
-            <h2 class="titulo-carrosel">MAIS VENDIDOS</h2>
-
+            
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -125,7 +135,8 @@
                 <!-- If we need scrollbar -->
                 <!-- <div class="swiper-scrollbar"></div> -->
               </div>
-        </section>
+            
+        
   
         <section class="card">
             <div class="texto-card">
@@ -146,6 +157,7 @@
                 <a href="#" class="botao-card">Saiba mais</a>
             </div>
         </section>
+    </section>
     </main>
 
     <footer> 

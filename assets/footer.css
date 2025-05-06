@@ -172,3 +172,19 @@ hr{
         color: var(--cor-fonte-links);
     }
 }
+
+@media (min-width: 1728px){
+    .grupo-alura{
+        display: flex;
+        justify-content: center;
+        gap: 121px;
+    }
+
+    .rodape-grupo-alura{
+        border-left: 1px solid var(--cor-cinza);
+    }
+
+    .grupo-alura-educacao{
+        margin-left: 30px;
+    }
+}
